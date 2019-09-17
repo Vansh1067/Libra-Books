@@ -1,0 +1,235 @@
+
+body{
+    background-image:url(../images/us3.jpg);
+    
+
+}
+ 
+   
+
+.heading h1{
+         font-size:25px;
+        
+         text-decoration: underline;
+         font-family: 'Chilanka', cursive;
+         text-align:center;
+}
+section{
+    background-image:url(../images/us3.jpg);
+ 
+    position: relative;
+    z-index:2;
+    top:110px;
+   
+ 
+}
+.table{
+   
+   background-color:rgba(0,0,0,0.7);
+   
+   color:white;
+}
+table{
+    border:3px solid rgba(0,0,0,0.7);
+    margin-top:5px;
+    font-size: 8px;
+    
+  }
+th{
+    border:1px solid rgba(255, 252, 252, 0.8);
+    height:25px;
+    word-break: break-all;
+    width:80px;
+    padding:25px 2px;
+  
+    text-decoration: underline;
+}
+td{
+    border:1px solid rgba(255, 252, 252, 0.8);
+    font-size: 9px;
+    word-break: break-all;
+    text-align: center;
+    padding:15px 0px;
+}
+.search-box{
+        width:220px;
+        height:40px;
+        margin:30px 0px;
+        margin-left:30px;
+        border-right:none;
+        font-family: 'Chilanka', cursive;
+        padding-left:10px;
+        font-size:20px;
+        background-color: rgba(0,0,0,0.7);
+        border:2px solid black;
+        color: white;
+}
+.search{
+margin:0px;
+width:40px;
+height:40px;
+background-color:transparent;
+border:none;
+position:relative;
+top:10px;
+
+border-radius: 5px;
+background-image: url(../images/search.png);
+}
+ @media only screen and (min-width:375px)
+{
+    .heading h1{
+        font-size:30px;
+    }
+  
+    .search-box{
+            widtH:280px;
+            margin-left:20px;
+    }
+    .search{
+        top:10px;
+        width:40px;
+        height:40px;
+    }
+    table{
+        font-size: 9px;
+    }
+   td{
+       font-size:10px;
+   }
+} 
+ @media only screen and (min-width:420px)
+{
+    .heading h1{
+        font-size:35px;
+    }
+  
+    .search-box{
+            widtH:50%;
+            margin-left:30%;
+    }
+   .search{
+       top:10px;
+       width:40px;
+       height:40px;
+   }
+    table{
+        font-size: 11px;
+        width:100%;
+    }
+   td{
+       font-size:12px;
+   }
+} 
+@media only screen and (min-width:768px)
+{
+    section{
+        top:150px;
+    }
+    .heading h1{
+        font-size:400%;
+    }
+    .search{
+        top:20px;
+        width:50px;
+        height:50px;
+    }
+    .search-box{
+            widtH:40%;
+            margin-left:50%;
+    }
+    .th{
+        width:120px;
+    }
+    table{
+        font-size: 19px;
+        width:100%;
+        
+    }
+   td{
+       font-size:18px;
+   }
+} 
+@media only screen and (min-width:1024px)
+{
+    section{
+        top:150px;
+    }
+    .heading h1{
+        font-size:550%;
+    }
+  .search-box{
+    height:50px;
+  }
+    .search{
+        top:20px;
+        width:50px;
+        height:50px;
+        
+    }
+    
+    table{
+        font-size: 28px;
+        width:100%;
+        
+    }
+   td{
+       font-size:26px;
+   }
+} 
+@media only screen and (min-width:1440px)
+{
+    section{
+        top:220px;
+    }
+    .heading h1{
+        font-size:750%;
+    }
+    .search-box{
+       height: 55px;
+       
+}
+    .search{
+        top:17px;
+        width:50px;
+        height:50px;
+    }
+    
+    table{
+        font-size: 40px;
+        width:100%;
+        
+    }
+   td{
+       font-size:35px;
+   }
+} 
+@media only screen and (min-width:2560px)
+{
+    section{
+        top:350px;
+    }
+    .heading h1{
+        font-size:1350%;
+    }
+    .search-box{
+       height: 85px;
+       font-size:40px;
+}
+.search{
+   top:9px;
+   width:50px;
+   height:50px;
+   
+} 
+    
+    
+    table{
+        font-size: 70px;
+        width:100%;
+        
+    }
+   td{
+       font-size:65px;
+   }
+} 

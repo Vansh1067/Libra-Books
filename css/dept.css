@@ -1,0 +1,137 @@
+.img-dept{
+    width:250px;
+    height:auto;
+    display:-moz-inline-grid;
+    border:5px solid;
+    margin:30px;
+    margin-bottom:10px;
+    margin-top:5px;
+    box-shadow:12px 12px 15px black;
+}
+body{
+    background-image:url(../images/bg2.jpg);
+}
+.dept a{
+  text-decoration:none;
+  color:black;
+}
+ .dept p{
+     width:170px;
+    
+    position: relative;
+    top:160px;
+    margin-left:40px;
+   color:white;
+    text-align:left;
+    font-weight:bold;
+    font-size:10px;
+    background-color:rgba(0,0,0,0.7);
+   
+} 
+.dept{
+    position:relative;
+    z-index:3;
+    width:100%;
+    top:120px;
+    background-image:url(../images/bg1.jpg);
+    background-size: cover;
+}
+.dept h1{
+    font-size:25px;
+    text-align:center;
+    text-decoration:underline;
+}
+.heading{
+
+}
+@media only screen and (min-width:375px){
+    .img-dept{
+     margin: 10px 60px;
+    
+      }
+      .dept p{
+      
+       top:160px;
+       margin-left:70px;
+     
+      
+   } 
+}
+@media only screen and (min-width:375px){
+    .img-dept{
+     margin: 10px 80px;
+    
+      }
+      .dept p{
+      
+       top:160px;
+       margin-left:90px;
+     
+      
+   } 
+}
+@media only screen and (min-width:768px){
+    .img-dept{
+     margin: 10px 120px;
+     width:500px;
+   }
+   .dept p{
+    width:350px;
+    top:300px;
+   margin-left:130px;
+    font-size:20px;
+  
+  
+} 
+}
+@media only screen and (min-width:1024px){
+    .img-dept{
+     margin: 10px 200px;
+     width:600px;
+   }
+   .dept p{
+    width:320px;
+    top:360px;
+   margin-left:220px;
+} 
+.dept h1{
+    font-size:65px;
+}
+}
+@media only screen and (min-width:1440px){
+    .img-dept{
+     margin: 10px 360px;
+     width:700px;
+   }
+   .dept p{
+    width:320px;
+    top:430px;
+   margin-left:390px;
+} 
+.dept h1{
+    font-size:85px;
+
+}
+.dept{
+top:190px;
+}
+}
+@media only screen and (min-width:2560px){
+    .img-dept{
+     margin: 10px 630px;
+     width:1200px;
+   }
+   .dept p{
+    width:800px;
+    top:730px;
+   margin-left:650px;
+   font-size:50px;
+} 
+.dept h1{
+    font-size:200px;
+
+}
+.dept{
+top:290px;
+}
+}
